@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/airomedical-react/static/css/main.9cc18955.css",
+    "main.js": "/airomedical-react/static/js/main.62d1d53f.js",
+    "index.html": "/airomedical-react/index.html",
+    "main.9cc18955.css.map": "/airomedical-react/static/css/main.9cc18955.css.map",
+    "main.62d1d53f.js.map": "/airomedical-react/static/js/main.62d1d53f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cc18955.css",
+    "static/js/main.62d1d53f.js"
+  ]
+}
