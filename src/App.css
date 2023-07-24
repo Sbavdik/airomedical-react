@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+h1 {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  margin: 0 auto;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  gap: 10px;
+}
+
+
+.beer-item { 
+  width: 700px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+
+  transition: all 0.3s;
+
+}
+
+.beer-item:hover {
+  transform: scale(1.01);
+ }
+
+.selected { 
+  background-color: aquamarine;
+}
+
+.delete-button {
+  width: 100px;
+  height: 50px;
+  margin: 20px 30px;
+  position: sticky;
+  top: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+}
+
+.beer-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 100px;
+}
+
+.beer-information {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.beer-image {
+  width: 200px;
+  transition: all 0.3s;
+}
+
+.beer-image:hover {
+  transform: scale(1.01);
+ }
+
+.beer-wrapper {
+  display: flex;
+  gap: 150px;
+}
+
+.beer-description {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.number {
+  border: 1px solid black;
+  border-radius: 48px;
+  padding: 5px 10px;
+  transition: all 0.3s;
+}
+
+.number:hover {
+  transform: scale(105%);
+}
+
+.active {
   color: white;
+  background-color: #000;
+  border: 1px solid black;
+  border-radius: 48px;
 }
 
-.App-link {
-  color: #61dafb;
+.pagination {
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.beer-description__main {
+  border-top: 2px solid black;
+  padding: 10px;
+}
+
+.header {
+  background-color: rgb(230, 230, 230);
+  padding: 20px;
+}
+
+.back {
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+
+.back:hover {
+  font-weight: 700;
 }
